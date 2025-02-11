@@ -1,0 +1,78 @@
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\DBProvider\bin\Debug\DBProvider.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\DBProvider\bin\Debug\DBProvider.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\DBProvider\obj\Debug\DBProvider.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\DBProvider\obj\Debug\DBProvider.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\bin\Debug\DBProvider.dll.config
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\bin\Debug\DBProvider.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\bin\Debug\DBProvider.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\bin\Debug\EntityFramework.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\bin\Debug\EntityFramework.xml
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.CopyComplete
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\obj\Debug\DBProvider.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\Project_Final\TheCoffee\DBProvider\obj\Debug\DBProvider.pdb
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\DBProvider.dll.config
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\DBProvider.dll
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\DBProvider.pdb
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\EntityFramework.dll
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\EntityFramework.xml
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.AssemblyReference.cache
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.CoreCompileInputs.cache
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.CopyComplete
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\obj\Debug\DBProvider.dll
+C:\Users\phann\Documents\Zalo Received Files\TheCoffee_Entity\TheCoffee\DBProvider\obj\Debug\DBProvider.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\DBProvider.dll.config
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\DBProvider.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\DBProvider.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\EntityFramework.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\EntityFramework.xml
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.CopyComplete
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\obj\Debug\DBProvider.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee_Entity\TheCoffee\DBProvider\obj\Debug\DBProvider.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\bin\Debug\DBProvider.dll.config
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\bin\Debug\DBProvider.dll
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\bin\Debug\DBProvider.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\bin\Debug\EntityFramework.dll
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\bin\Debug\EntityFramework.SqlServer.dll
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\bin\Debug\EntityFramework.xml
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\bin\Debug\EntityFramework.SqlServer.xml
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.AssemblyReference.cache
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.CoreCompileInputs.cache
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.CopyComplete
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\obj\Debug\DBProvider.dll
+C:\HK2\Lap Trinh Windows\TheCoffee\DBProvider\obj\Debug\DBProvider.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\bin\Debug\DBProvider.dll.config
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\bin\Debug\DBProvider.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\bin\Debug\DBProvider.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\bin\Debug\EntityFramework.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\bin\Debug\EntityFramework.SqlServer.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\bin\Debug\EntityFramework.xml
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\bin\Debug\EntityFramework.SqlServer.xml
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.AssemblyReference.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.CoreCompileInputs.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\obj\Debug\DBProvider.csproj.CopyComplete
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\obj\Debug\DBProvider.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee\DBProvider\obj\Debug\DBProvider.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\bin\Debug\DBProvider.dll.config
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\bin\Debug\DBProvider.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\bin\Debug\DBProvider.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\bin\Debug\EntityFramework.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\bin\Debug\EntityFramework.SqlServer.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\bin\Debug\EntityFramework.xml
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\bin\Debug\EntityFramework.SqlServer.xml
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\obj\Debug\DBProvider.csproj.AssemblyReference.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\obj\Debug\DBProvider.csproj.CoreCompileInputs.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\obj\Debug\DBProvider.csproj.CopyComplete
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\obj\Debug\DBProvider.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\TheCoffee-Entity\DBProvider\obj\Debug\DBProvider.pdb

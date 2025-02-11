@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DIEPFAMILY" Class="TheCoffeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=DIEPFAMILY;Integrated Security=True" SettingsObjectName="TheCoffee.Properties.Settings" SettingsPropertyName="DIEPFAMILYConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Categories" Member="Categories">
+    <Type Name="Category">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cate_totalproduct" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cate_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Category_Product" Member="Products" ThisKey="id" OtherKey="categoriesID" Type="Product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Order]" Member="Orders">
+    <Type Name="Order">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="us_username" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="transactionID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="productID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="or_quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="or_price" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Association Name="Product_Order" Member="Product" ThisKey="productID" OtherKey="id" Type="Product" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Transaction_Order" Member="Transaction" ThisKey="transactionID" OtherKey="id" Type="Transaction" IsForeignKey="true" />
+      <Association Name="User_Order" Member="User" ThisKey="us_username" OtherKey="us_username" Type="User" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Product" Member="Products">
+    <Type Name="Product">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="categoriesID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="supplierID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pro_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="pro_quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pro_firstprice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="pro_price" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="pro_description" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="pro_nsx" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="pro_hsd" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="Product_Order" Member="Orders" ThisKey="id" OtherKey="productID" Type="Order" />
+      <Association Name="Category_Product" Member="Category" ThisKey="categoriesID" OtherKey="id" Type="Category" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Supplier_Product" Member="Supplier" ThisKey="supplierID" OtherKey="id" Type="Supplier" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Supplier" Member="Suppliers">
+    <Type Name="Supplier">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sup_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sup_phone" Type="System.String" DbType="Char(11) NOT NULL" CanBeNull="false" />
+      <Column Name="sup_address" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="Supplier_Product" Member="Products" ThisKey="id" OtherKey="supplierID" Type="Product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Transaction]" Member="Transactions">
+    <Type Name="Transaction">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="us_username" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="addressTo" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="phoneTo" Type="System.String" DbType="Char(11) NOT NULL" CanBeNull="false" />
+      <Column Name="totalprice" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="createdate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="note" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Transaction_Order" Member="Orders" ThisKey="id" OtherKey="transactionID" Type="Order" />
+      <Association Name="User_Transaction" Member="User" ThisKey="us_username" OtherKey="us_username" Type="User" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="us_username" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="us_password" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="us_firstname" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="us_lastname" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="us_address" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="us_birthday" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="us_gender" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="us_phone" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="us_email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="us_role" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="User_Order" Member="Orders" ThisKey="us_username" OtherKey="us_username" Type="Order" />
+      <Association Name="User_Transaction" Member="Transactions" ThisKey="us_username" OtherKey="us_username" Type="Transaction" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_BaoCaoDoanhThu" Member="View_BaoCaoDoanhThus">
+    <Type Name="View_BaoCaoDoanhThu">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="us_username" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="totalprice" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="createdate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_DanhSachHangDaDat" Member="View_DanhSachHangDaDats">
+    <Type Name="View_DanhSachHangDaDat">
+      <Column Name="us_username" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="transactionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="orderID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pro_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="or_quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="or_price" Type="System.Single" DbType="Real" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_ThongKeSanPhamTheoDanhMuc" Member="View_ThongKeSanPhamTheoDanhMucs">
+    <Type Name="View_ThongKeSanPhamTheoDanhMuc">
+      <Column Name="cate_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sup_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="pro_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="pro_quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pro_firstprice" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="pro_price" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="pro_nsx" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="pro_hsd" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="pro_description" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

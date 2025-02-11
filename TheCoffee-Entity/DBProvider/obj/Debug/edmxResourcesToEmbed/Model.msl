@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBTheCoffeeModelStoreContainer" CdmEntityContainer="DBTheCoffeeEntities">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="DBTheCoffeeModel.Category">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="cate_totalproduct" ColumnName="cate_totalproduct" />
+          <ScalarProperty Name="cate_name" ColumnName="cate_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="DBTheCoffeeModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="us_username" ColumnName="us_username" />
+          <ScalarProperty Name="transactionID" ColumnName="transactionID" />
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="or_quantity" ColumnName="or_quantity" />
+          <ScalarProperty Name="or_price" ColumnName="or_price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="DBTheCoffeeModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="categoriesID" ColumnName="categoriesID" />
+          <ScalarProperty Name="supplierID" ColumnName="supplierID" />
+          <ScalarProperty Name="pro_name" ColumnName="pro_name" />
+          <ScalarProperty Name="pro_quantity" ColumnName="pro_quantity" />
+          <ScalarProperty Name="pro_firstprice" ColumnName="pro_firstprice" />
+          <ScalarProperty Name="pro_price" ColumnName="pro_price" />
+          <ScalarProperty Name="pro_description" ColumnName="pro_description" />
+          <ScalarProperty Name="pro_nsx" ColumnName="pro_nsx" />
+          <ScalarProperty Name="pro_hsd" ColumnName="pro_hsd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="DBTheCoffeeModel.Supplier">
+        <MappingFragment StoreEntitySet="Supplier">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sup_name" ColumnName="sup_name" />
+          <ScalarProperty Name="sup_phone" ColumnName="sup_phone" />
+          <ScalarProperty Name="sup_address" ColumnName="sup_address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transactions">
+      <EntityTypeMapping TypeName="DBTheCoffeeModel.Transaction">
+        <MappingFragment StoreEntitySet="Transaction">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="us_username" ColumnName="us_username" />
+          <ScalarProperty Name="addressTo" ColumnName="addressTo" />
+          <ScalarProperty Name="phoneTo" ColumnName="phoneTo" />
+          <ScalarProperty Name="totalprice" ColumnName="totalprice" />
+          <ScalarProperty Name="createdate" ColumnName="createdate" />
+          <ScalarProperty Name="note" ColumnName="note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="DBTheCoffeeModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="us_username" ColumnName="us_username" />
+          <ScalarProperty Name="us_password" ColumnName="us_password" />
+          <ScalarProperty Name="us_firstname" ColumnName="us_firstname" />
+          <ScalarProperty Name="us_lastname" ColumnName="us_lastname" />
+          <ScalarProperty Name="us_address" ColumnName="us_address" />
+          <ScalarProperty Name="us_birthday" ColumnName="us_birthday" />
+          <ScalarProperty Name="us_gender" ColumnName="us_gender" />
+          <ScalarProperty Name="us_phone" ColumnName="us_phone" />
+          <ScalarProperty Name="us_email" ColumnName="us_email" />
+          <ScalarProperty Name="us_role" ColumnName="us_role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_BaoCaoDoanhThu">
+      <EntityTypeMapping TypeName="DBTheCoffeeModel.View_BaoCaoDoanhThu">
+        <MappingFragment StoreEntitySet="View_BaoCaoDoanhThu">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="us_username" ColumnName="us_username" />
+          <ScalarProperty Name="totalprice" ColumnName="totalprice" />
+          <ScalarProperty Name="createdate" ColumnName="createdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_DanhSachHangDaDat">
+      <EntityTypeMapping TypeName="DBTheCoffeeModel.View_DanhSachHangDaDat">
+        <MappingFragment StoreEntitySet="View_DanhSachHangDaDat">
+          <ScalarProperty Name="us_username" ColumnName="us_username" />
+          <ScalarProperty Name="transactionID" ColumnName="transactionID" />
+          <ScalarProperty Name="orderID" ColumnName="orderID" />
+          <ScalarProperty Name="pro_name" ColumnName="pro_name" />
+          <ScalarProperty Name="or_quantity" ColumnName="or_quantity" />
+          <ScalarProperty Name="or_price" ColumnName="or_price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_ThongKeSanPhamTheoDanhMuc">
+      <EntityTypeMapping TypeName="DBTheCoffeeModel.View_ThongKeSanPhamTheoDanhMuc">
+        <MappingFragment StoreEntitySet="View_ThongKeSanPhamTheoDanhMuc">
+          <ScalarProperty Name="cate_name" ColumnName="cate_name" />
+          <ScalarProperty Name="sup_name" ColumnName="sup_name" />
+          <ScalarProperty Name="pro_name" ColumnName="pro_name" />
+          <ScalarProperty Name="pro_quantity" ColumnName="pro_quantity" />
+          <ScalarProperty Name="pro_firstprice" ColumnName="pro_firstprice" />
+          <ScalarProperty Name="pro_price" ColumnName="pro_price" />
+          <ScalarProperty Name="pro_nsx" ColumnName="pro_nsx" />
+          <ScalarProperty Name="pro_hsd" ColumnName="pro_hsd" />
+          <ScalarProperty Name="pro_description" ColumnName="pro_description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_ChangePassword" FunctionName="DBTheCoffeeModel.Store.sp_ChangePassword" />
+    <FunctionImportMapping FunctionImportName="sp_CheckLogin" FunctionName="DBTheCoffeeModel.Store.sp_CheckLogin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBTheCoffeeModel.sp_CheckLogin_Result">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_DeleteOrder" FunctionName="DBTheCoffeeModel.Store.sp_DeleteOrder" />
+    <FunctionImportMapping FunctionImportName="sp_DeleteProduct" FunctionName="DBTheCoffeeModel.Store.sp_DeleteProduct" />
+    <FunctionImportMapping FunctionImportName="sp_DeleteTransaction" FunctionName="DBTheCoffeeModel.Store.sp_DeleteTransaction" />
+    <FunctionImportMapping FunctionImportName="sp_DeleteUser" FunctionName="DBTheCoffeeModel.Store.sp_DeleteUser" />
+    <FunctionImportMapping FunctionImportName="sp_getAllProduct" FunctionName="DBTheCoffeeModel.Store.sp_getAllProduct">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBTheCoffeeModel.sp_getAllProduct_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pro_name" ColumnName="pro_name" />
+          <ScalarProperty Name="cate_name" ColumnName="cate_name" />
+          <ScalarProperty Name="sup_name" ColumnName="sup_name" />
+          <ScalarProperty Name="pro_quantity" ColumnName="pro_quantity" />
+          <ScalarProperty Name="pro_firstprice" ColumnName="pro_firstprice" />
+          <ScalarProperty Name="pro_price" ColumnName="pro_price" />
+          <ScalarProperty Name="pro_nsx" ColumnName="pro_nsx" />
+          <ScalarProperty Name="pro_hsd" ColumnName="pro_hsd" />
+          <ScalarProperty Name="pro_description" ColumnName="pro_description" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getOrderDetail" FunctionName="DBTheCoffeeModel.Store.sp_getOrderDetail">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBTheCoffeeModel.sp_getOrderDetail_Result">
+          <ScalarProperty Name="orderID" ColumnName="orderID" />
+          <ScalarProperty Name="pro_name" ColumnName="pro_name" />
+          <ScalarProperty Name="or_quantity" ColumnName="or_quantity" />
+          <ScalarProperty Name="or_price" ColumnName="or_price" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getProduct" FunctionName="DBTheCoffeeModel.Store.sp_getProduct">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBTheCoffeeModel.sp_getProduct_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="categoriesID" ColumnName="categoriesID" />
+          <ScalarProperty Name="supplierID" ColumnName="supplierID" />
+          <ScalarProperty Name="pro_name" ColumnName="pro_name" />
+          <ScalarProperty Name="pro_quantity" ColumnName="pro_quantity" />
+          <ScalarProperty Name="pro_firstprice" ColumnName="pro_firstprice" />
+          <ScalarProperty Name="pro_price" ColumnName="pro_price" />
+          <ScalarProperty Name="pro_description" ColumnName="pro_description" />
+          <ScalarProperty Name="pro_nsx" ColumnName="pro_nsx" />
+          <ScalarProperty Name="pro_hsd" ColumnName="pro_hsd" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getTransactionByUser" FunctionName="DBTheCoffeeModel.Store.sp_getTransactionByUser">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBTheCoffeeModel.sp_getTransactionByUser_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="us_username" ColumnName="us_username" />
+          <ScalarProperty Name="addressTo" ColumnName="addressTo" />
+          <ScalarProperty Name="phoneTo" ColumnName="phoneTo" />
+          <ScalarProperty Name="totalprice" ColumnName="totalprice" />
+          <ScalarProperty Name="createdate" ColumnName="createdate" />
+          <ScalarProperty Name="note" ColumnName="note" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getTransactionByUserForDate" FunctionName="DBTheCoffeeModel.Store.sp_getTransactionByUserForDate">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBTheCoffeeModel.sp_getTransactionByUserForDate_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="us_username" ColumnName="us_username" />
+          <ScalarProperty Name="addressTo" ColumnName="addressTo" />
+          <ScalarProperty Name="phoneTo" ColumnName="phoneTo" />
+          <ScalarProperty Name="totalprice" ColumnName="totalprice" />
+          <ScalarProperty Name="createdate" ColumnName="createdate" />
+          <ScalarProperty Name="note" ColumnName="note" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InfoUser" FunctionName="DBTheCoffeeModel.Store.sp_InfoUser">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBTheCoffeeModel.sp_InfoUser_Result">
+          <ScalarProperty Name="us_username" ColumnName="us_username" />
+          <ScalarProperty Name="us_password" ColumnName="us_password" />
+          <ScalarProperty Name="us_firstname" ColumnName="us_firstname" />
+          <ScalarProperty Name="us_lastname" ColumnName="us_lastname" />
+          <ScalarProperty Name="us_address" ColumnName="us_address" />
+          <ScalarProperty Name="us_birthday" ColumnName="us_birthday" />
+          <ScalarProperty Name="us_gender" ColumnName="us_gender" />
+          <ScalarProperty Name="us_phone" ColumnName="us_phone" />
+          <ScalarProperty Name="us_email" ColumnName="us_email" />
+          <ScalarProperty Name="us_role" ColumnName="us_role" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsertOrder" FunctionName="DBTheCoffeeModel.Store.sp_InsertOrder" />
+    <FunctionImportMapping FunctionImportName="sp_InsertProduct" FunctionName="DBTheCoffeeModel.Store.sp_InsertProduct" />
+    <FunctionImportMapping FunctionImportName="sp_InsertTransaction" FunctionName="DBTheCoffeeModel.Store.sp_InsertTransaction" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUser" FunctionName="DBTheCoffeeModel.Store.sp_InsertUser" />
+    <FunctionImportMapping FunctionImportName="sp_Permission" FunctionName="DBTheCoffeeModel.Store.sp_Permission" />
+    <FunctionImportMapping FunctionImportName="sp_Register" FunctionName="DBTheCoffeeModel.Store.sp_Register" />
+    <FunctionImportMapping FunctionImportName="sp_TimKiemSanPhamTheoTen" FunctionName="DBTheCoffeeModel.Store.sp_TimKiemSanPhamTheoTen">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBTheCoffeeModel.sp_TimKiemSanPhamTheoTen_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pro_name" ColumnName="pro_name" />
+          <ScalarProperty Name="pro_quantity" ColumnName="pro_quantity" />
+          <ScalarProperty Name="pro_price" ColumnName="pro_price" />
+          <ScalarProperty Name="sup_name" ColumnName="sup_name" />
+          <ScalarProperty Name="cate_name" ColumnName="cate_name" />
+          <ScalarProperty Name="pro_nsx" ColumnName="pro_nsx" />
+          <ScalarProperty Name="pro_hsd" ColumnName="pro_hsd" />
+          <ScalarProperty Name="pro_description" ColumnName="pro_description" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UpdateOrder" FunctionName="DBTheCoffeeModel.Store.sp_UpdateOrder" />
+    <FunctionImportMapping FunctionImportName="sp_UpdateProduct" FunctionName="DBTheCoffeeModel.Store.sp_UpdateProduct" />
+    <FunctionImportMapping FunctionImportName="sp_UpdateUser" FunctionName="DBTheCoffeeModel.Store.sp_UpdateUser" />
+  </EntityContainerMapping>
+</Mapping>

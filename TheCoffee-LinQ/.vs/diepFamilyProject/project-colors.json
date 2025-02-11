@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bf79032e-a842-4047-835e-af0fce22e6b2": {
+      "ProjectGuid": "bf79032e-a842-4047-835e-af0fce22e6b2",
+      "DisplayName": "DBProvider",
+      "ColorIndex": 0
+    },
+    "9c3cb072-1d59-4275-95ea-3fd1ccf204ce": {
+      "ProjectGuid": "9c3cb072-1d59-4275-95ea-3fd1ccf204ce",
+      "DisplayName": "diepFamilyProject",
+      "ColorIndex": 1
+    },
+    "f136385f-76cf-4ff2-8f2b-01ee5089ad16": {
+      "ProjectGuid": "f136385f-76cf-4ff2-8f2b-01ee5089ad16",
+      "DisplayName": "Beans",
+      "ColorIndex": 2
+    },
+    "c3da7546-d5d0-428c-b21c-2004c7887300": {
+      "ProjectGuid": "c3da7546-d5d0-428c-b21c-2004c7887300",
+      "DisplayName": "Business",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

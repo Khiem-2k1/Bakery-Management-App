@@ -1,0 +1,45 @@
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\Beans\bin\Debug\Beans.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\Beans\bin\Debug\Beans.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\Beans\bin\Debug\DBProvider.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\Beans\bin\Debug\DBProvider.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\Beans\obj\Debug\Beans.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\Beans\obj\Debug\Beans.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\Beans\obj\Debug\Beans.csproj.CopyComplete
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\Beans\obj\Debug\Beans.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\Beans\obj\Debug\Beans.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\Beans\bin\Debug\Beans.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\Beans\bin\Debug\Beans.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\Beans\bin\Debug\DBProvider.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\Beans\bin\Debug\DBProvider.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\Beans\obj\Debug\Beans.csproj.AssemblyReference.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\Beans\obj\Debug\Beans.csproj.CoreCompileInputs.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\Beans\obj\Debug\Beans.csproj.CopyComplete
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\Beans\obj\Debug\Beans.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\Beans\obj\Debug\Beans.pdb
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\bin\Debug\Beans.dll
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\bin\Debug\Beans.pdb
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\bin\Debug\DBProvider.dll
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\bin\Debug\DBProvider.pdb
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\obj\Debug\Beans.csproj.AssemblyReference.cache
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\obj\Debug\Beans.csproj.CoreCompileInputs.cache
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\obj\Debug\Beans.csproj.CopyComplete
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\obj\Debug\Beans.dll
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\obj\Debug\Beans.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\bin\Debug\Beans.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\bin\Debug\Beans.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\bin\Debug\DBProvider.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\bin\Debug\DBProvider.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\obj\Debug\Beans.csproj.AssemblyReference.cache
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\obj\Debug\Beans.csproj.CoreCompileInputs.cache
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\obj\Debug\Beans.csproj.CopyComplete
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\obj\Debug\Beans.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\Beans\obj\Debug\Beans.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\Beans\bin\Debug\Beans.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\Beans\bin\Debug\Beans.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\Beans\bin\Debug\DBProvider.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\Beans\bin\Debug\DBProvider.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\Beans\obj\Debug\Beans.csproj.AssemblyReference.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\Beans\obj\Debug\Beans.csproj.CoreCompileInputs.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\Beans\obj\Debug\Beans.csproj.CopyComplete
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\Beans\obj\Debug\Beans.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\Beans\obj\Debug\Beans.pdb

@@ -1,0 +1,62 @@
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\ModelCategories\bin\Debug\ModelCategories.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\ModelCategories\bin\Debug\ModelCategories.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\ModelCategories\bin\Debug\Beans.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\ModelCategories\bin\Debug\DBProvider.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\ModelCategories\bin\Debug\Beans.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\ModelCategories\bin\Debug\DBProvider.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\ModelCategories\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\ModelCategories\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\ModelCategories\obj\Debug\Business.csproj.CopyComplete
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\ModelCategories\obj\Debug\ModelCategories.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\ModelCategories\obj\Debug\ModelCategories.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\ModelCategories\bin\Debug\ModelCategories.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\ModelCategories\bin\Debug\ModelCategories.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\ModelCategories\bin\Debug\Beans.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\ModelCategories\bin\Debug\DBProvider.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\ModelCategories\bin\Debug\Beans.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\ModelCategories\bin\Debug\DBProvider.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\ModelCategories\obj\Debug\Business.csproj.AssemblyReference.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\ModelCategories\obj\Debug\Business.csproj.CoreCompileInputs.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\ModelCategories\obj\Debug\Business.csproj.CopyComplete
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\ModelCategories\obj\Debug\ModelCategories.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\ModelCategories\obj\Debug\ModelCategories.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - LinQ\ModelCategories\bin\Debug\ModelCategories.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - LinQ\ModelCategories\bin\Debug\ModelCategories.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - LinQ\ModelCategories\bin\Debug\Beans.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - LinQ\ModelCategories\bin\Debug\Beans.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - LinQ\ModelCategories\obj\Debug\Business.csproj.AssemblyReference.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - LinQ\ModelCategories\obj\Debug\Business.csproj.CoreCompileInputs.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - LinQ\ModelCategories\obj\Debug\Business.csproj.CopyComplete
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - LinQ\ModelCategories\obj\Debug\ModelCategories.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - LinQ\ModelCategories\obj\Debug\ModelCategories.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - LinQ\ModelCategories\bin\Debug\ModelCategories.dll.config
+C:\HK2\Lap Trinh Windows\TheCoffee - LinQ\ModelCategories\bin\Debug\ModelCategories.dll.config
+C:\HK2\Lap Trinh Windows\TheCoffee - LinQ\ModelCategories\bin\Debug\ModelCategories.dll
+C:\HK2\Lap Trinh Windows\TheCoffee - LinQ\ModelCategories\bin\Debug\ModelCategories.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee - LinQ\ModelCategories\bin\Debug\Beans.dll
+C:\HK2\Lap Trinh Windows\TheCoffee - LinQ\ModelCategories\bin\Debug\Beans.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee - LinQ\ModelCategories\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\HK2\Lap Trinh Windows\TheCoffee - LinQ\ModelCategories\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\HK2\Lap Trinh Windows\TheCoffee - LinQ\ModelCategories\obj\Debug\Business.csproj.CopyComplete
+C:\HK2\Lap Trinh Windows\TheCoffee - LinQ\ModelCategories\obj\Debug\ModelCategories.dll
+C:\HK2\Lap Trinh Windows\TheCoffee - LinQ\ModelCategories\obj\Debug\ModelCategories.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\LinQ\TheCoffee - LinQ\ModelCategories\bin\Debug\ModelCategories.dll.config
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\LinQ\TheCoffee - LinQ\ModelCategories\bin\Debug\ModelCategories.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\LinQ\TheCoffee - LinQ\ModelCategories\bin\Debug\ModelCategories.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\LinQ\TheCoffee - LinQ\ModelCategories\bin\Debug\Beans.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\LinQ\TheCoffee - LinQ\ModelCategories\bin\Debug\Beans.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\LinQ\TheCoffee - LinQ\ModelCategories\obj\Debug\Business.csproj.AssemblyReference.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\LinQ\TheCoffee - LinQ\ModelCategories\obj\Debug\Business.csproj.CoreCompileInputs.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\LinQ\TheCoffee - LinQ\ModelCategories\obj\Debug\Business.csproj.CopyComplete
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\LinQ\TheCoffee - LinQ\ModelCategories\obj\Debug\ModelCategories.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\LinQ\TheCoffee - LinQ\ModelCategories\obj\Debug\ModelCategories.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-LinQ\ModelCategories\bin\Debug\ModelCategories.dll.config
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-LinQ\ModelCategories\bin\Debug\ModelCategories.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-LinQ\ModelCategories\bin\Debug\ModelCategories.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-LinQ\ModelCategories\bin\Debug\Beans.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-LinQ\ModelCategories\bin\Debug\Beans.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-LinQ\ModelCategories\obj\Debug\Business.csproj.AssemblyReference.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-LinQ\ModelCategories\obj\Debug\Business.csproj.CoreCompileInputs.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-LinQ\ModelCategories\obj\Debug\Business.csproj.CopyComplete
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-LinQ\ModelCategories\obj\Debug\ModelCategories.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-LinQ\ModelCategories\obj\Debug\ModelCategories.pdb

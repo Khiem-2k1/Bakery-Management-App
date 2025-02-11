@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DBTheCoffeeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="cate_totalproduct" Type="int" />
+          <Property Name="cate_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Order">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="us_username" />
+            <PropertyRef Name="transactionID" />
+            <PropertyRef Name="productID" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="us_username" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="transactionID" Type="int" Nullable="false" />
+          <Property Name="productID" Type="int" Nullable="false" />
+          <Property Name="or_quantity" Type="int" Nullable="false" />
+          <Property Name="or_price" Type="real" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="categoriesID" Type="int" Nullable="false" />
+          <Property Name="supplierID" Type="int" Nullable="false" />
+          <Property Name="pro_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="pro_quantity" Type="int" Nullable="false" />
+          <Property Name="pro_firstprice" Type="float" />
+          <Property Name="pro_price" Type="float" />
+          <Property Name="pro_description" Type="nvarchar" MaxLength="100" />
+          <Property Name="pro_nsx" Type="date" Nullable="false" />
+          <Property Name="pro_hsd" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Supplier">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="sup_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="sup_phone" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="sup_address" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Transaction">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="us_username" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="addressTo" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="phoneTo" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="totalprice" Type="real" Nullable="false" />
+          <Property Name="createdate" Type="date" Nullable="false" />
+          <Property Name="note" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="us_username" />
+          </Key>
+          <Property Name="us_username" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="us_password" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="us_firstname" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="us_lastname" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="us_address" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="us_birthday" Type="date" Nullable="false" />
+          <Property Name="us_gender" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="us_phone" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="us_email" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="us_role" Type="nvarchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DBTheCoffee.dbo.View_BaoCaoDoanhThu' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="View_BaoCaoDoanhThu">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="us_username" />
+            <PropertyRef Name="totalprice" />
+            <PropertyRef Name="createdate" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="us_username" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="totalprice" Type="real" Nullable="false" />
+          <Property Name="createdate" Type="date" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DBTheCoffee.dbo.View_DanhSachHangDaDat' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="View_DanhSachHangDaDat">
+          <Key>
+            <PropertyRef Name="us_username" />
+            <PropertyRef Name="transactionID" />
+            <PropertyRef Name="orderID" />
+            <PropertyRef Name="pro_name" />
+            <PropertyRef Name="or_quantity" />
+          </Key>
+          <Property Name="us_username" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="transactionID" Type="int" Nullable="false" />
+          <Property Name="orderID" Type="int" Nullable="false" />
+          <Property Name="pro_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="or_quantity" Type="int" Nullable="false" />
+          <Property Name="or_price" Type="real" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DBTheCoffee.dbo.View_ThongKeSanPhamTheoDanhMuc' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="View_ThongKeSanPhamTheoDanhMuc">
+          <Key>
+            <PropertyRef Name="cate_name" />
+            <PropertyRef Name="sup_name" />
+            <PropertyRef Name="pro_name" />
+            <PropertyRef Name="pro_quantity" />
+            <PropertyRef Name="pro_firstprice" />
+            <PropertyRef Name="pro_price" />
+            <PropertyRef Name="pro_nsx" />
+            <PropertyRef Name="pro_hsd" />
+          </Key>
+          <Property Name="cate_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="sup_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="pro_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="pro_quantity" Type="int" Nullable="false" />
+          <Property Name="pro_firstprice" Type="real" Nullable="false" />
+          <Property Name="pro_price" Type="real" Nullable="false" />
+          <Property Name="pro_nsx" Type="date" Nullable="false" />
+          <Property Name="pro_hsd" Type="date" Nullable="false" />
+          <Property Name="pro_description" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <Association Name="FK_Order_Product">
+          <End Role="Product" Type="Self.Product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Order" Type="Self.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Product">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Order">
+              <PropertyRef Name="productID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Order_Transaction">
+          <End Role="Transaction" Type="Self.Transaction" Multiplicity="1" />
+          <End Role="Order" Type="Self.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Transaction">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Order">
+              <PropertyRef Name="transactionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Order_User">
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Order" Type="Self.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="us_username" />
+            </Principal>
+            <Dependent Role="Order">
+              <PropertyRef Name="us_username" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_Categories">
+          <End Role="Categories" Type="Self.Categories" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Product" Type="Self.Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Product">
+              <PropertyRef Name="categoriesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_Supplier">
+          <End Role="Supplier" Type="Self.Supplier" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Product" Type="Self.Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Supplier">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Product">
+              <PropertyRef Name="supplierID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Transaction_User">
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="us_username" />
+            </Principal>
+            <Dependent Role="Transaction">
+              <PropertyRef Name="us_username" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="sp_ChangePassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+          <Parameter Name="password_old" Type="varchar" Mode="In" />
+          <Parameter Name="password_new" Type="varchar" Mode="In" />
+          <Parameter Name="confirmPass" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="sp_CheckLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+          <Parameter Name="password" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="sp_DeleteOrder" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_DeleteProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_DeleteTransaction" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_DeleteUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="sp_getAllProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="sp_getOrderDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+          <Parameter Name="transactionID" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_getProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_getTransactionByUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="sp_getTransactionByUserForDate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+          <Parameter Name="datefrom" Type="varchar" Mode="In" />
+          <Parameter Name="dateto" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="sp_InfoUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="sp_InsertOrder" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+          <Parameter Name="transactionID" Type="int" Mode="In" />
+          <Parameter Name="productID" Type="int" Mode="In" />
+          <Parameter Name="quantity" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_InsertProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="categoriesID" Type="int" Mode="In" />
+          <Parameter Name="supplierID" Type="int" Mode="In" />
+          <Parameter Name="pro_name" Type="nvarchar" Mode="In" />
+          <Parameter Name="pro_quantity" Type="int" Mode="In" />
+          <Parameter Name="pro_firstprice" Type="float" Mode="In" />
+          <Parameter Name="pro_price" Type="float" Mode="In" />
+          <Parameter Name="pro_nsx" Type="date" Mode="In" />
+          <Parameter Name="pro_hsd" Type="date" Mode="In" />
+          <Parameter Name="pro_description" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_InsertTransaction" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+          <Parameter Name="address" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="phone" Type="char" Mode="In" />
+          <Parameter Name="createdate" Type="date" Mode="In" />
+          <Parameter Name="note" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_InsertUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+          <Parameter Name="password" Type="varchar" Mode="In" />
+          <Parameter Name="firstname" Type="nvarchar" Mode="In" />
+          <Parameter Name="lastname" Type="nvarchar" Mode="In" />
+          <Parameter Name="address" Type="nvarchar" Mode="In" />
+          <Parameter Name="birthday" Type="date" Mode="In" />
+          <Parameter Name="gender" Type="char" Mode="In" />
+          <Parameter Name="phone" Type="varchar" Mode="In" />
+          <Parameter Name="email" Type="varchar" Mode="In" />
+          <Parameter Name="role" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_Permission" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+          <Parameter Name="password" Type="varchar" Mode="In" />
+          <Parameter Name="role" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="sp_Register" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+          <Parameter Name="password" Type="varchar" Mode="In" />
+          <Parameter Name="confirmpassword" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="sp_TimKiemSanPhamTheoTen" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="name" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_UpdateOrder" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="id" Type="int" Mode="In" />
+          <Parameter Name="quantity" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_UpdateProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="id" Type="int" Mode="In" />
+          <Parameter Name="categoriesID" Type="int" Mode="In" />
+          <Parameter Name="supplierID" Type="int" Mode="In" />
+          <Parameter Name="name" Type="nvarchar" Mode="In" />
+          <Parameter Name="quantity" Type="int" Mode="In" />
+          <Parameter Name="firstprice" Type="real" Mode="In" />
+          <Parameter Name="price" Type="real" Mode="In" />
+          <Parameter Name="nsx" Type="date" Mode="In" />
+          <Parameter Name="hsd" Type="date" Mode="In" />
+          <Parameter Name="description" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_UpdateUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="varchar" Mode="In" />
+          <Parameter Name="password" Type="varchar" Mode="In" />
+          <Parameter Name="firstname" Type="nvarchar" Mode="In" />
+          <Parameter Name="lastname" Type="nvarchar" Mode="In" />
+          <Parameter Name="address" Type="nvarchar" Mode="In" />
+          <Parameter Name="birthday" Type="date" Mode="In" />
+          <Parameter Name="gender" Type="char" Mode="In" />
+          <Parameter Name="phone" Type="varchar" Mode="In" />
+          <Parameter Name="email" Type="varchar" Mode="In" />
+          <Parameter Name="role" Type="nvarchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="DBTheCoffeeModelStoreContainer">
+          <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Supplier" EntityType="Self.Supplier" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Transaction" EntityType="Self.Transaction" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="View_BaoCaoDoanhThu" EntityType="Self.View_BaoCaoDoanhThu" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [View_BaoCaoDoanhThu].[id] AS [id], 
+    [View_BaoCaoDoanhThu].[us_username] AS [us_username], 
+    [View_BaoCaoDoanhThu].[totalprice] AS [totalprice], 
+    [View_BaoCaoDoanhThu].[createdate] AS [createdate]
+    FROM [dbo].[View_BaoCaoDoanhThu] AS [View_BaoCaoDoanhThu]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="View_DanhSachHangDaDat" EntityType="Self.View_DanhSachHangDaDat" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [View_DanhSachHangDaDat].[us_username] AS [us_username], 
+    [View_DanhSachHangDaDat].[transactionID] AS [transactionID], 
+    [View_DanhSachHangDaDat].[orderID] AS [orderID], 
+    [View_DanhSachHangDaDat].[pro_name] AS [pro_name], 
+    [View_DanhSachHangDaDat].[or_quantity] AS [or_quantity], 
+    [View_DanhSachHangDaDat].[or_price] AS [or_price]
+    FROM [dbo].[View_DanhSachHangDaDat] AS [View_DanhSachHangDaDat]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="View_ThongKeSanPhamTheoDanhMuc" EntityType="Self.View_ThongKeSanPhamTheoDanhMuc" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [View_ThongKeSanPhamTheoDanhMuc].[cate_name] AS [cate_name], 
+    [View_ThongKeSanPhamTheoDanhMuc].[sup_name] AS [sup_name], 
+    [View_ThongKeSanPhamTheoDanhMuc].[pro_name] AS [pro_name], 
+    [View_ThongKeSanPhamTheoDanhMuc].[pro_quantity] AS [pro_quantity], 
+    [View_ThongKeSanPhamTheoDanhMuc].[pro_firstprice] AS [pro_firstprice], 
+    [View_ThongKeSanPhamTheoDanhMuc].[pro_price] AS [pro_price], 
+    [View_ThongKeSanPhamTheoDanhMuc].[pro_nsx] AS [pro_nsx], 
+    [View_ThongKeSanPhamTheoDanhMuc].[pro_hsd] AS [pro_hsd], 
+    [View_ThongKeSanPhamTheoDanhMuc].[pro_description] AS [pro_description]
+    FROM [dbo].[View_ThongKeSanPhamTheoDanhMuc] AS [View_ThongKeSanPhamTheoDanhMuc]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_Order_Product" Association="Self.FK_Order_Product">
+            <End Role="Product" EntitySet="Product" />
+            <End Role="Order" EntitySet="Order" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Order_Transaction" Association="Self.FK_Order_Transaction">
+            <End Role="Transaction" EntitySet="Transaction" />
+            <End Role="Order" EntitySet="Order" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Order_User" Association="Self.FK_Order_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Order" EntitySet="Order" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_Categories" Association="Self.FK_Product_Categories">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="Product" EntitySet="Product" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_Supplier" Association="Self.FK_Product_Supplier">
+            <End Role="Supplier" EntitySet="Supplier" />
+            <End Role="Product" EntitySet="Product" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Transaction_User" Association="Self.FK_Transaction_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Transaction" EntitySet="Transaction" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBTheCoffeeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="cate_totalproduct" Type="Int32" />
+          <Property Name="cate_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Products" Relationship="Self.FK_Product_Categories" FromRole="Categories" ToRole="Product" />
+        </EntityType>
+        <EntityType Name="Order">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="us_username" />
+            <PropertyRef Name="transactionID" />
+            <PropertyRef Name="productID" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="us_username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="transactionID" Type="Int32" Nullable="false" />
+          <Property Name="productID" Type="Int32" Nullable="false" />
+          <Property Name="or_quantity" Type="Int32" Nullable="false" />
+          <Property Name="or_price" Type="Single" />
+          <NavigationProperty Name="Product" Relationship="Self.FK_Order_Product" FromRole="Order" ToRole="Product" />
+          <NavigationProperty Name="Transaction" Relationship="Self.FK_Order_Transaction" FromRole="Order" ToRole="Transaction" />
+          <NavigationProperty Name="User" Relationship="Self.FK_Order_User" FromRole="Order" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="categoriesID" Type="Int32" Nullable="false" />
+          <Property Name="supplierID" Type="Int32" Nullable="false" />
+          <Property Name="pro_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="pro_quantity" Type="Int32" Nullable="false" />
+          <Property Name="pro_firstprice" Type="Double" />
+          <Property Name="pro_price" Type="Double" />
+          <Property Name="pro_description" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="pro_nsx" Type="DateTime" Nullable="false" />
+          <Property Name="pro_hsd" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Category" Relationship="Self.FK_Product_Categories" FromRole="Product" ToRole="Categories" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK_Order_Product" FromRole="Product" ToRole="Order" />
+          <NavigationProperty Name="Supplier" Relationship="Self.FK_Product_Supplier" FromRole="Product" ToRole="Supplier" />
+        </EntityType>
+        <EntityType Name="Supplier">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="sup_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="sup_phone" Type="String" MaxLength="11" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="sup_address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Products" Relationship="Self.FK_Product_Supplier" FromRole="Supplier" ToRole="Product" />
+        </EntityType>
+        <EntityType Name="Transaction">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="us_username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="addressTo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="phoneTo" Type="String" MaxLength="11" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="totalprice" Type="Single" Nullable="false" />
+          <Property Name="createdate" Type="DateTime" Nullable="false" />
+          <Property Name="note" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK_Order_Transaction" FromRole="Transaction" ToRole="Order" />
+          <NavigationProperty Name="User" Relationship="Self.FK_Transaction_User" FromRole="Transaction" ToRole="User" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="us_username" />
+          </Key>
+          <Property Name="us_username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="us_password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="us_firstname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="us_lastname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="us_address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="us_birthday" Type="DateTime" Nullable="false" />
+          <Property Name="us_gender" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="us_phone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="us_email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="us_role" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK_Order_User" FromRole="User" ToRole="Order" />
+          <NavigationProperty Name="Transactions" Relationship="Self.FK_Transaction_User" FromRole="User" ToRole="Transaction" />
+        </EntityType>
+        <EntityType Name="View_BaoCaoDoanhThu">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="us_username" />
+            <PropertyRef Name="totalprice" />
+            <PropertyRef Name="createdate" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="us_username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="totalprice" Type="Single" Nullable="false" />
+          <Property Name="createdate" Type="DateTime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="View_DanhSachHangDaDat">
+          <Key>
+            <PropertyRef Name="us_username" />
+            <PropertyRef Name="transactionID" />
+            <PropertyRef Name="orderID" />
+            <PropertyRef Name="pro_name" />
+            <PropertyRef Name="or_quantity" />
+          </Key>
+          <Property Name="us_username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="transactionID" Type="Int32" Nullable="false" />
+          <Property Name="orderID" Type="Int32" Nullable="false" />
+          <Property Name="pro_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="or_quantity" Type="Int32" Nullable="false" />
+          <Property Name="or_price" Type="Single" />
+        </EntityType>
+        <EntityType Name="View_ThongKeSanPhamTheoDanhMuc">
+          <Key>
+            <PropertyRef Name="cate_name" />
+            <PropertyRef Name="sup_name" />
+            <PropertyRef Name="pro_name" />
+            <PropertyRef Name="pro_quantity" />
+            <PropertyRef Name="pro_firstprice" />
+            <PropertyRef Name="pro_price" />
+            <PropertyRef Name="pro_nsx" />
+            <PropertyRef Name="pro_hsd" />
+          </Key>
+          <Property Name="cate_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="sup_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="pro_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="pro_quantity" Type="Int32" Nullable="false" />
+          <Property Name="pro_firstprice" Type="Single" Nullable="false" />
+          <Property Name="pro_price" Type="Single" Nullable="false" />
+          <Property Name="pro_nsx" Type="DateTime" Nullable="false" />
+          <Property Name="pro_hsd" Type="DateTime" Nullable="false" />
+          <Property Name="pro_description" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_Product_Categories">
+          <End Role="Categories" Type="Self.Category" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Product" Type="Self.Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Product">
+              <PropertyRef Name="categoriesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Order_Product">
+          <End Role="Product" Type="Self.Product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Order" Type="Self.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Product">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Order">
+              <PropertyRef Name="productID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Order_Transaction">
+          <End Role="Transaction" Type="Self.Transaction" Multiplicity="1" />
+          <End Role="Order" Type="Self.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Transaction">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Order">
+              <PropertyRef Name="transactionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Order_User">
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Order" Type="Self.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="us_username" />
+            </Principal>
+            <Dependent Role="Order">
+              <PropertyRef Name="us_username" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_Supplier">
+          <End Role="Supplier" Type="Self.Supplier" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Product" Type="Self.Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Supplier">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Product">
+              <PropertyRef Name="supplierID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Transaction_User">
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="us_username" />
+            </Principal>
+            <Dependent Role="Transaction">
+              <PropertyRef Name="us_username" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBTheCoffeeEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Categories" EntityType="Self.Category" />
+          <EntitySet Name="Orders" EntityType="Self.Order" />
+          <EntitySet Name="Products" EntityType="Self.Product" />
+          <EntitySet Name="Suppliers" EntityType="Self.Supplier" />
+          <EntitySet Name="Transactions" EntityType="Self.Transaction" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <EntitySet Name="View_BaoCaoDoanhThu" EntityType="Self.View_BaoCaoDoanhThu" />
+          <EntitySet Name="View_DanhSachHangDaDat" EntityType="Self.View_DanhSachHangDaDat" />
+          <EntitySet Name="View_ThongKeSanPhamTheoDanhMuc" EntityType="Self.View_ThongKeSanPhamTheoDanhMuc" />
+          <AssociationSet Name="FK_Product_Categories" Association="Self.FK_Product_Categories">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="Product" EntitySet="Products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Order_Product" Association="Self.FK_Order_Product">
+            <End Role="Product" EntitySet="Products" />
+            <End Role="Order" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Order_Transaction" Association="Self.FK_Order_Transaction">
+            <End Role="Transaction" EntitySet="Transactions" />
+            <End Role="Order" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Order_User" Association="Self.FK_Order_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Order" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_Supplier" Association="Self.FK_Product_Supplier">
+            <End Role="Supplier" EntitySet="Suppliers" />
+            <End Role="Product" EntitySet="Products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Transaction_User" Association="Self.FK_Transaction_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Transaction" EntitySet="Transactions" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBTheCoffeeModelStoreContainer" CdmEntityContainer="DBTheCoffeeEntities">
+          <EntitySetMapping Name="Categories">
+            <EntityTypeMapping TypeName="DBTheCoffeeModel.Category">
+              <MappingFragment StoreEntitySet="Categories">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="cate_totalproduct" ColumnName="cate_totalproduct" />
+                <ScalarProperty Name="cate_name" ColumnName="cate_name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Orders">
+            <EntityTypeMapping TypeName="DBTheCoffeeModel.Order">
+              <MappingFragment StoreEntitySet="Order">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="us_username" ColumnName="us_username" />
+                <ScalarProperty Name="transactionID" ColumnName="transactionID" />
+                <ScalarProperty Name="productID" ColumnName="productID" />
+                <ScalarProperty Name="or_quantity" ColumnName="or_quantity" />
+                <ScalarProperty Name="or_price" ColumnName="or_price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Products">
+            <EntityTypeMapping TypeName="DBTheCoffeeModel.Product">
+              <MappingFragment StoreEntitySet="Product">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="categoriesID" ColumnName="categoriesID" />
+                <ScalarProperty Name="supplierID" ColumnName="supplierID" />
+                <ScalarProperty Name="pro_name" ColumnName="pro_name" />
+                <ScalarProperty Name="pro_quantity" ColumnName="pro_quantity" />
+                <ScalarProperty Name="pro_firstprice" ColumnName="pro_firstprice" />
+                <ScalarProperty Name="pro_price" ColumnName="pro_price" />
+                <ScalarProperty Name="pro_description" ColumnName="pro_description" />
+                <ScalarProperty Name="pro_nsx" ColumnName="pro_nsx" />
+                <ScalarProperty Name="pro_hsd" ColumnName="pro_hsd" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Suppliers">
+            <EntityTypeMapping TypeName="DBTheCoffeeModel.Supplier">
+              <MappingFragment StoreEntitySet="Supplier">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sup_name" ColumnName="sup_name" />
+                <ScalarProperty Name="sup_phone" ColumnName="sup_phone" />
+                <ScalarProperty Name="sup_address" ColumnName="sup_address" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Transactions">
+            <EntityTypeMapping TypeName="DBTheCoffeeModel.Transaction">
+              <MappingFragment StoreEntitySet="Transaction">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="us_username" ColumnName="us_username" />
+                <ScalarProperty Name="addressTo" ColumnName="addressTo" />
+                <ScalarProperty Name="phoneTo" ColumnName="phoneTo" />
+                <ScalarProperty Name="totalprice" ColumnName="totalprice" />
+                <ScalarProperty Name="createdate" ColumnName="createdate" />
+                <ScalarProperty Name="note" ColumnName="note" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="DBTheCoffeeModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="us_username" ColumnName="us_username" />
+                <ScalarProperty Name="us_password" ColumnName="us_password" />
+                <ScalarProperty Name="us_firstname" ColumnName="us_firstname" />
+                <ScalarProperty Name="us_lastname" ColumnName="us_lastname" />
+                <ScalarProperty Name="us_address" ColumnName="us_address" />
+                <ScalarProperty Name="us_birthday" ColumnName="us_birthday" />
+                <ScalarProperty Name="us_gender" ColumnName="us_gender" />
+                <ScalarProperty Name="us_phone" ColumnName="us_phone" />
+                <ScalarProperty Name="us_email" ColumnName="us_email" />
+                <ScalarProperty Name="us_role" ColumnName="us_role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="View_BaoCaoDoanhThu">
+            <EntityTypeMapping TypeName="DBTheCoffeeModel.View_BaoCaoDoanhThu">
+              <MappingFragment StoreEntitySet="View_BaoCaoDoanhThu">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="us_username" ColumnName="us_username" />
+                <ScalarProperty Name="totalprice" ColumnName="totalprice" />
+                <ScalarProperty Name="createdate" ColumnName="createdate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="View_DanhSachHangDaDat">
+            <EntityTypeMapping TypeName="DBTheCoffeeModel.View_DanhSachHangDaDat">
+              <MappingFragment StoreEntitySet="View_DanhSachHangDaDat">
+                <ScalarProperty Name="us_username" ColumnName="us_username" />
+                <ScalarProperty Name="transactionID" ColumnName="transactionID" />
+                <ScalarProperty Name="orderID" ColumnName="orderID" />
+                <ScalarProperty Name="pro_name" ColumnName="pro_name" />
+                <ScalarProperty Name="or_quantity" ColumnName="or_quantity" />
+                <ScalarProperty Name="or_price" ColumnName="or_price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="View_ThongKeSanPhamTheoDanhMuc">
+            <EntityTypeMapping TypeName="DBTheCoffeeModel.View_ThongKeSanPhamTheoDanhMuc">
+              <MappingFragment StoreEntitySet="View_ThongKeSanPhamTheoDanhMuc">
+                <ScalarProperty Name="cate_name" ColumnName="cate_name" />
+                <ScalarProperty Name="sup_name" ColumnName="sup_name" />
+                <ScalarProperty Name="pro_name" ColumnName="pro_name" />
+                <ScalarProperty Name="pro_quantity" ColumnName="pro_quantity" />
+                <ScalarProperty Name="pro_firstprice" ColumnName="pro_firstprice" />
+                <ScalarProperty Name="pro_price" ColumnName="pro_price" />
+                <ScalarProperty Name="pro_nsx" ColumnName="pro_nsx" />
+                <ScalarProperty Name="pro_hsd" ColumnName="pro_hsd" />
+                <ScalarProperty Name="pro_description" ColumnName="pro_description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

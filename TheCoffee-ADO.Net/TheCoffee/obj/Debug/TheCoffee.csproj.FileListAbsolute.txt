@@ -1,0 +1,343 @@
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\bin\Debug\TheCoffee.exe.config
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\bin\Debug\TheCoffee.exe
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\bin\Debug\TheCoffee.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\bin\Debug\Beans.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\bin\Debug\DBProvider.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\bin\Debug\ModelCategories.dll
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\bin\Debug\Beans.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\bin\Debug\DBProvider.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\bin\Debug\ModelCategories.pdb
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.SignUpForm.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.ThongKeBaoCaoView.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.DSNhanVien.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.GioHangView.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.MainFormViewCNPM.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.DSProduct.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.timKiemSanPhamTheoTenView.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.MainFormCustomer.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.QuanliDonHangCaNhan.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.changePasswordView.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.DSUser.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.inFoAccountView.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.Properties.Resources.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.mainFormView.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.SignInForm.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.MainForm.resources
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.csproj.CopyComplete
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.exe
+C:\Users\Admin\OneDrive - hcmute.edu.vn\Desktop\TheCoffee\TheCoffee\obj\Debug\TheCoffee.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\bin\Debug\TheCoffee.exe.config
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\bin\Debug\TheCoffee.exe
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\bin\Debug\TheCoffee.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\bin\Debug\Beans.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\bin\Debug\DBProvider.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\bin\Debug\ModelCategories.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\bin\Debug\Beans.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\bin\Debug\DBProvider.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\bin\Debug\ModelCategories.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.csproj.AssemblyReference.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.csproj.SuggestedBindingRedirects.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.SignUpForm.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.ThongKeBaoCaoView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.DSNhanVien.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.GioHangView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.MainFormViewCNPM.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.DSProduct.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.timKiemSanPhamTheoTenView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.MainFormCustomer.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.QuanliDonHangCaNhan.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.changePasswordView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.DSUser.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.inFoAccountView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.Properties.Resources.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.mainFormView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.SignInForm.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.MainForm.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.csproj.GenerateResource.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.csproj.CoreCompileInputs.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.csproj.CopyComplete
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.exe
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee\TheCoffee\obj\Debug\TheCoffee.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\bin\Debug\TheCoffee.exe.config
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\bin\Debug\TheCoffee.exe
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\bin\Debug\TheCoffee.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\bin\Debug\Beans.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\bin\Debug\DBProvider.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\bin\Debug\ModelCategories.dll
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\bin\Debug\Beans.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\bin\Debug\DBProvider.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\bin\Debug\ModelCategories.pdb
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.AssemblyReference.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.SuggestedBindingRedirects.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.SignUpForm.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.ThongKeBaoCaoView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.DSNhanVien.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.GioHangView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.MainFormViewCNPM.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.DSProduct.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.timKiemSanPhamTheoTenView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.MainFormCustomer.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.QuanliDonHangCaNhan.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.changePasswordView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.DSUser.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.inFoAccountView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.Properties.Resources.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.mainFormView.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.SignInForm.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.MainForm.resources
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.GenerateResource.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.CoreCompileInputs.cache
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.CopyComplete
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.exe
+E:\Nam4hk2\LTW\DoAnCuoiKy\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.pdb
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\TheCoffee.exe.config
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\TheCoffee.exe
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\TheCoffee.pdb
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Beans.dll
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\DBProvider.dll
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ModelCategories.dll
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Beans.pdb
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\DBProvider.pdb
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ModelCategories.pdb
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.AssemblyReference.cache
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.SuggestedBindingRedirects.cache
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.SignUpForm.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.ThongKeBaoCaoView.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.DSNhanVien.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.GioHangView.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.MainFormViewCNPM.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.DSProduct.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.timKiemSanPhamTheoTenView.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.MainFormCustomer.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.QuanliDonHangCaNhan.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.changePasswordView.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.DSUser.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.inFoAccountView.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.Properties.Resources.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.mainFormView.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.SignInForm.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.MainForm.resources
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.GenerateResource.cache
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.CoreCompileInputs.cache
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.CopyComplete
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.exe
+C:\HK2\Lap Trinh Windows\ĐỒ ÁN CUỐI KỲ - NHÓM 04\ĐỒ ÁN CUỐI KỲ - NHÓM 04\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\TheCoffee.exe.config
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\TheCoffee.exe
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\TheCoffee.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Beans.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\DBProvider.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ModelCategories.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\EnvDTE.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\stdole.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Microsoft.MSXML.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\Beans.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\DBProvider.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ModelCategories.pdb
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.AssemblyReference.cache
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.SuggestedBindingRedirects.cache
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.GUI_Layer.ReportOrder.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.SignUpForm.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.ThongKeBaoCaoView.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.DSNhanVien.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.GioHangView.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.MainFormViewCNPM.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.DSProduct.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.timKiemSanPhamTheoTenView.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.MainFormCustomer.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.QuanliDonHangCaNhan.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.changePasswordView.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.DSUser.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.inFoAccountView.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.Properties.Resources.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.mainFormView.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.SignInForm.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.MainForm.resources
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.GenerateResource.cache
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.CoreCompileInputs.cache
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.csproj.CopyComplete
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.exe
+C:\HK2\Lap Trinh Windows\TheCoffee-ADO.Net\TheCoffee - Dotnet\TheCoffee\obj\Debug\TheCoffee.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\TheCoffee.exe.config
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\TheCoffee.exe
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\TheCoffee.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\Beans.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\DBProvider.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ModelCategories.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\EnvDTE.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\stdole.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\Beans.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\DBProvider.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ModelCategories.pdb
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.csproj.AssemblyReference.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.csproj.SuggestedBindingRedirects.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.GUI_Layer.ReportOrder.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.SignUpForm.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.ThongKeBaoCaoView.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.DSNhanVien.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.GioHangView.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.MainFormViewCNPM.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.DSProduct.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.timKiemSanPhamTheoTenView.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.MainFormCustomer.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.QuanliDonHangCaNhan.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.changePasswordView.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.DSUser.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.inFoAccountView.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.Properties.Resources.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.mainFormView.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.SignInForm.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.MainForm.resources
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.csproj.GenerateResource.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.csproj.CoreCompileInputs.cache
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.csproj.CopyComplete
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.exe
+D:\HCMUTE\Year2\HK2\ProgramingOnWindows\Project_Final\Đồ án cuối kỳ - Nhóm 04\TheCoffee-ADO.Net\TheCoffee\obj\Debug\TheCoffee.pdb

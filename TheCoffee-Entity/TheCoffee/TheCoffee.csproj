@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C3CB072-1D59-4275-95EA-3FD1CCF204CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TheCoffee</RootNamespace>
+    <AssemblyName>TheCoffee</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1576.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1576.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1576.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1576.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1576.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI Layer\ReportOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\ReportOrder.Designer.cs">
+      <DependentUpon>ReportOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\SignUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\SignUpForm.Designer.cs">
+      <DependentUpon>SignUpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\ThongKeBaoCaoView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\ThongKeBaoCaoView.Designer.cs">
+      <DependentUpon>ThongKeBaoCaoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\DSNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\DSNhanVien.Designer.cs">
+      <DependentUpon>DSNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\GioHangView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\GioHangView.Designer.cs">
+      <DependentUpon>GioHangView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\MainFormViewCNPM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\MainFormViewCNPM.Designer.cs">
+      <DependentUpon>MainFormViewCNPM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\DSProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\DSProduct.Designer.cs">
+      <DependentUpon>DSProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\timKiemSanPhamTheoTenView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\timKiemSanPhamTheoTenView.Designer.cs">
+      <DependentUpon>timKiemSanPhamTheoTenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\QuanliDonHangCaNhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\QuanliDonHangCaNhan.Designer.cs">
+      <DependentUpon>QuanliDonHangCaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\MainFormCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\MainFormCustomer.Designer.cs">
+      <DependentUpon>MainFormCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\changePasswordView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\changePasswordView.Designer.cs">
+      <DependentUpon>changePasswordView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\DSKhachHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\DSKhachHang.designer.cs">
+      <DependentUpon>DSKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\inFoAccountView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\inFoAccountView.Designer.cs">
+      <DependentUpon>inFoAccountView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\mainFormView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\mainFormView.Designer.cs">
+      <DependentUpon>mainFormView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\SignInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\SignInForm.Designer.cs">
+      <DependentUpon>SignInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="TheCoffeeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TheCoffeeDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GUI Layer\ReportOrder.resx">
+      <DependentUpon>ReportOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\SignUpForm.resx">
+      <DependentUpon>SignUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\ThongKeBaoCaoView.resx">
+      <DependentUpon>ThongKeBaoCaoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\DSNhanVien.resx">
+      <DependentUpon>DSNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\GioHangView.resx">
+      <DependentUpon>GioHangView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\MainFormViewCNPM.resx">
+      <DependentUpon>MainFormViewCNPM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\DSProduct.resx">
+      <DependentUpon>DSProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\timKiemSanPhamTheoTenView.resx">
+      <DependentUpon>timKiemSanPhamTheoTenView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\MainFormCustomer.resx">
+      <DependentUpon>MainFormCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\QuanliDonHangCaNhan.resx">
+      <DependentUpon>QuanliDonHangCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\changePasswordView.resx">
+      <DependentUpon>changePasswordView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\DSKhachHang.resx">
+      <DependentUpon>DSKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\inFoAccountView.resx">
+      <DependentUpon>inFoAccountView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\mainFormView.resx">
+      <DependentUpon>mainFormView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\SignInForm.resx">
+      <DependentUpon>SignInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TheCoffeeDataSet.xsc">
+      <DependentUpon>TheCoffeeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TheCoffeeDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TheCoffeeDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TheCoffeeDataSet.xss">
+      <DependentUpon>TheCoffeeDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Beans\Beans.csproj">
+      <Project>{f136385f-76cf-4ff2-8f2b-01ee5089ad16}</Project>
+      <Name>Beans</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBProvider\DBProvider.csproj">
+      <Project>{bf79032e-a842-4047-835e-af0fce22e6b2}</Project>
+      <Name>DBProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelCategories\Business.csproj">
+      <Project>{c3da7546-d5d0-428c-b21c-2004c7887300}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\icons8_accounting_32px_1.png" />
+    <Content Include="resources\icons8_add_user_male_125px.png" />
+    <Content Include="resources\icons8_cafe_25px.png" />
+    <Content Include="resources\icons8_categorize_32px_1.png" />
+    <Content Include="resources\icons8_contact_details_32px.png" />
+    <Content Include="resources\icons8_copyright_25px_2.png" />
+    <Content Include="resources\icons8_copyright_32px_1.png" />
+    <Content Include="resources\icons8_cupcake_25px_1.png" />
+    <Content Include="resources\icons8_customer_32px.png" />
+    <Content Include="resources\icons8_deliver_food_25px.png" />
+    <Content Include="resources\icons8_deliver_food_64px.png" />
+    <Content Include="resources\icons8_employee_32px.png" />
+    <Content Include="resources\icons8_food_service_25px.png" />
+    <Content Include="resources\icons8_home_32px.png" />
+    <Content Include="resources\icons8_home_50px.png" />
+    <Content Include="resources\icons8_list_64px.png" />
+    <Content Include="resources\icons8_more_info_32px_2.png" />
+    <Content Include="resources\icons8_order_history_32px.png" />
+    <Content Include="resources\icons8_password_32px.png" />
+    <Content Include="resources\icons8_product_32px.png" />
+    <Content Include="resources\icons8_search_25px.png" />
+    <Content Include="resources\icons8_search_more_32px.png" />
+    <Content Include="resources\icons8_shopping_cart_32px.png" />
+    <Content Include="resources\icons8_shutdown_32px.png" />
+    <Content Include="resources\icons8_user_24px_7.png" />
+    <Content Include="resources\icons8_user_96px_1.png" />
+    <Content Include="resources\icons8_wedding_cake_64px_1.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>
